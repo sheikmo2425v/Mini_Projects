@@ -1,0 +1,80 @@
+
+/* android */
+@media (max-width: 576px) {
+    .mainbg{
+        background-color: rgb(91, 93, 96);
+        height: 100%;
+        width: 100%;
+        position:fixed ;
+    }
+    .bor{
+        display:grid;
+        
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px;
+      
+        margin-top: 10%;
+        justify-content: center;
+        
+        
+    }
+    .box{
+        background-color: Gray;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        
+        font-size: 30px;
+        text-align: center;
+    }
+    .tce{
+        margin-left: 30%;
+    }
+    .d{
+        border: 3px solid;
+        padding: 3px;
+        width: 40%;
+        margin-top: 15%;
+        margin-left: 30%;
+    }
+}
+/* pc */
+@media (min-width: 577px) {
+    .mainbg{
+        background-color:  rgb(91, 93, 96);
+        height: 100%;
+        width: 100%;
+        position:fixed ;
+    }
+    .bor{
+        display:grid;
+        
+        grid-template-columns: 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px;
+        
+        justify-content: center;
+        
+        
+        
+    }
+    .box{
+        background-color: gray;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+       
+        font-size: 30px;
+        text-align: center;
+    }
+    h1{
+        margin-top: 30%;
+    }
+    .d{
+        border: 3px solid;
+        padding: 3px;
+        width: 30%;
+        margin-top: 2%;
+        margin-left: 35%;
+    }
+   
+    .tce{
+        margin-left: 43%;
+    }
+
+}
